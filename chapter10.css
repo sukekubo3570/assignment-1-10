@@ -31,21 +31,21 @@ header {
 
 .img1 {
   height: 150px;
-  background-image: url(img/img/flow01.png);
+  background-image: url(sample_img/chapter10_exercise/img/flow01.png);
   background-position: bottom;
   background-size: cover;
 }
 
 .img2 {
   height: 150px;
-  background-image: url(img/img/flow02.png);
+  background-image: url(sample_img/chapter10_exercise/img/flow02.png);
   background-position: bottom;
   background-size: cover;
 }
 
 .img3 {
   height: 150px;
-  background-image: url(img/img/flow03.png);
+  background-image: url(sample_img/chapter10_exercise/img/flow03.png);
   background-position: bottom;
   background-size: cover;
 }
@@ -67,4 +67,27 @@ header {
   background-color: #AAAAAA;
   height: 50px;
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+  header {
+    width: 100%;
+  }
+
+  .blog {
+    width: 100%;
+    display: block;
+  }
+
+  .main-step {
+    margin: 0 auto;
+    margin-bottom: 20px ;
+    width: 90%;
+  }
+
+  .main-step:last-child {
+    margin-bottom: 0px;
+  }
+
 }
