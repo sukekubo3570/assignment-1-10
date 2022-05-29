@@ -14,7 +14,6 @@ header {
   padding: 50px 0px;
   margin: 0 auto;
   display: flex;
-  flex-direction: raw;
   width: 960px;
 }
 
@@ -87,7 +86,7 @@ header {
   }
 
   .main-step:last-child {
-    margin-bottom: 0px;
+    margin: 0 auto;
   }
 
 }
